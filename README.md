@@ -1,36 +1,36 @@
-# ImaDevFS
+class imadevFS(self):
+        self.username = 'imadevFS'
+        self.name = 'Imanol Mugueta'
+        self.web = 'En desarrollo'
+        self.twitter = '@imadevFS'
+        self.youtube = 'https://www.youtube.com/'
+        self.linkedin = 'https://www.linkedin.com/'
+        self.dev = 'https://dev.to/'
+        self.source = {
+            'born': ['Pamplona','Navarra','Spain'],
+            'Where I live': ['Spain','Pamplona'],
+        },
+        self.studies = {
+            'FPS': ['DAM','U-tad'],
+            'FPS': ['Marketing','CI Maria Ana Sanz']
+        },
+        self.code = {
+            'erp': ['odoo erp', 'sap r3'],
+            'frontend': ['HTML', 'CSS', 'JavaScript', 'Boostrap','React','Redux'],
+            'backend': ['Python', 'PHP', 'Flask', 'Django','Node.Js'],
+            'database': ['PostgreSQL', 'MySQL', 'SQLite3', 'MongoDB'],
+            'devops': ['Docker', 'Nginx', 'AWS', 'Heroku','Docker-compose'],
+            'tools': ['GIT', 'GitHub', 'Bitbucket'],
+            'ides': ['Visual Studio Code', 'PyCharm'],
+            'misc': ['Firebase', 'SCRUM', 'GNU/Linux', 'IOS']
+        },
+        self.projects = {
+            'docker-odoo-16': [ https://github.com/docker-odoo-16 ][PYTHON],
+        }
+    def __str__(self):
+        return self.name
 
-### Hi, my name is Imanol
-aka **ImaDev Full-Stack Developer**
 
+if __name__ == '__main__':
+    me = imadevFS()
 
-## Bootcamp time
-
-### SEMANA01
-
-### Configuración del ambiente de desarrollo (Prework)
-- Instalando Ubuntu en Windows 10/11
-- Instalación de Git
-- Configuración de las llaves SSH
-- Creando una cuenta de GitHub
-- Instalación de Node.js y Yarn
-- Primeros pasos con VS Code
-  
-### El mundo del Markdown
-- Sintaxis básica de Markdown
-- Sintaxis saborizada en GitHub
-  
-### Uso básico de la Terminal
-- ️Conociendo la terminal
-- ️Comandos alias para la terminal
-  
-## Esto son los comandos más usados
-
-| Comandos mas usados | def |
-| ------------- | ------- |
-| ls | listado|
-| cd | change directory|
-| pwd | print work directory |
-| clear | clean terminal |
-| mkdir | make directory|
-| alias | show alias|
